@@ -2,13 +2,22 @@ package com.healthlife.u20221b471.main.fitnessapiservice.infrastructure.client.d
 
 public class FitnessApiResponse {
 
-    private Data data;
+    private DataExercises dataExercises;
 
-    public Data getData() {
-        return data;
+
+
+
+    public void setData(DataExercises dataExercises) {
+        this.dataExercises = dataExercises;
     }
 
-    public void setData(Data data) {
-        this.data = data;
+    public DataExercises getDataExercises() {
+        return dataExercises;
     }
+
+    public void setDataExercises(DataExercises dataExercises) {
+        this.dataExercises = dataExercises;
+    }
+
+
 }
